@@ -5,9 +5,6 @@ Este repositório contém scripts para automatizar e agilizar a configuração e
 ## Aviso
 Esses scripts são voltados para distribuições Ubuntu, com versão principal 18+. Para outras distribuições, será necessário adaptar os scripts.
 
-## Preparando a Workstation
-Leia o arquivo `automation_workstation.yml` antes de aplicá-lo e certifique-se de entender tudo o que será feito.
-
 ### Instalar o Ansible
 Execute os seguintes comandos para instalar o Ansible:
 ```bash
