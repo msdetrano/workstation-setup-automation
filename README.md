@@ -11,7 +11,7 @@ O objetivo deste repositório é automatizar o processo de instalação de ferra
 ## 📋 Pré-requisitos
 Antes de começar, você precisará de um ambiente Ubuntu com acesso a internet e permissões de administrador para executar comandos com `sudo`.
 
-## 🔧 Instalar o Ansible
+## 🔧 Instalar o Ansible & Aplicar e Aplicar as configurações YML. 
 O primeiro passo para usar este repositório é garantir que o Ansible esteja instalado em sua máquina. Execute os comandos abaixo para instalar o Ansible, além de outras ferramentas necessárias como `git` e `unzip`:
 
 ```bash
