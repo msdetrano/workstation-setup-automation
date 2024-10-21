@@ -1,12 +1,22 @@
 # Workstation Tools
 
-Este repositório contém scripts para automatizar e agilizar a configuração e o fluxo de trabalho da minha máquina.
+Bem-vindo ao repositório **Workstation Tools**! Este projeto contém scripts que automatizam e agilizam a configuração e preparação da minha máquina de trabalho, focando em ambientes Ubuntu.
 
-## Aviso
-Esses scripts são voltados para distribuições Ubuntu, com versão principal 18+. Para outras distribuições, será necessário adaptar os scripts.
+## ⚠️ Aviso
+Os scripts aqui fornecidos são projetados especificamente para distribuições Ubuntu, com suporte para versões principais 18+. Se você estiver usando uma distribuição diferente, será necessário adaptar os scripts conforme as peculiaridades do sistema.
 
-### Instalar o Ansible
-Execute os seguintes comandos para instalar o Ansible:
+## 🚀 Objetivo
+O objetivo deste repositório é automatizar o processo de instalação de ferramentas essenciais, economizando tempo e garantindo consistência na configuração da minha workstation para desenvolvimento e administração de sistemas.
+
+## 📋 Pré-requisitos
+Antes de começar, você precisará de um ambiente Ubuntu com acesso a internet e permissões de administrador para executar comandos com `sudo`.
+
+## 🔧 Instalar o Ansible
+O primeiro passo para usar este repositório é garantir que o Ansible esteja instalado em sua máquina. Execute os comandos abaixo para instalar o Ansible, além de outras ferramentas necessárias como `git` e `unzip`:
+
 ```bash
 sudo apt update && sudo apt install ansible unzip git -y
 
+## Aplicar as configurações via Ansible
+
+ansible-playbook ./workstation_automation.yml --ask-become-pass
